@@ -1,0 +1,22 @@
+# Drip Campaign Skill
+
+Drip Campaign Skill is a skill package for time-based nurture streams, branching logic, and conversion analysis.
+
+Install:
+
+```bash
+npx skills add dripcampaignskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://dripcampaignskill.com/index.md
+- Skill page: https://dripcampaignskill.com/skill/index.md
+- Raw SKILL.md: https://dripcampaignskill.com/skills/dripcampaignskill/SKILL.md
+- Skill discovery JSON: https://dripcampaignskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready Drip Campaign Strategy: https://dripcampaignskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical Drip Campaign Operations Playbook for AI Agents: https://dripcampaignskill.com/articles/email-operations-playbook/index.md
+- Drip Campaign Skill Audit Checklist: From Prompt to Production: https://dripcampaignskill.com/articles/email-skill-audit-checklist/index.md

@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "dripcampaignskill",
+      "title": "Drip Campaign Skill",
+      "description": "Drip Campaign Skill: time-based nurture streams, branching logic, and conversion analysis.",
+      "install": "npx skills add dripcampaignskill",
+      "skill_url": "https://dripcampaignskill.com/skills/dripcampaignskill/SKILL.md",
+      "markdown_url": "https://dripcampaignskill.com/skill/index.md",
+      "homepage_url": "https://dripcampaignskill.com/"
+    }
+  ]
+}
