@@ -2,9 +2,9 @@
 
 dripcampaignskill.com
 
-Drip Campaign Skill for agents that work on email systems.
+Design drip streams with timing, scoring, and drop-off logic visible.
 
-A compact skill for time-based nurture streams, branching logic, and conversion analysis, built for Codex, Hermes, OpenClaw, Claude Code, Cowork, Goose, Cursor, Windsurf, and other skill-aware agents. It gives agents intake questions, review gates, QA checks, and handoff formats for production email work.
+A drip campaign skill for agents that plan nurture sequences, inspect branch logic, and connect content to conversion signals.
 
 ## Install
 
@@ -12,16 +12,43 @@ A compact skill for time-based nurture streams, branching logic, and conversion 
 npx skills add dripcampaignskill
 ```
 
-Raw skill folder: `skills/dripcampaignskill`
+## Operating Data
 
-## Use Cases
+- **5**: sequence stages
+- **3**: scoring hooks
+- **2**: drop-off reviews
 
-- **Nurture sequence planning**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Lead scoring hooks**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Drop-off analysis**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
+## Nurture rail
 
-## Guides
+1. Entry
+2. Education
+3. Proof
+4. Objection
+5. Conversion
 
-- [How to Build an Agent-Ready Drip Campaign Strategy](/articles/agent-ready-email-strategy/index.md)
-- [The Practical Drip Campaign Operations Playbook for AI Agents](/articles/email-operations-playbook/index.md)
-- [Drip Campaign Skill Audit Checklist: From Prompt to Production](/articles/email-skill-audit-checklist/index.md)
+## Scenarios
+
+### Nurture sequence planning
+
+Build stage-by-stage messages with timing and exit logic.
+
+### Lead scoring hooks
+
+Tie clicks, visits, replies, and intent events to next-message decisions.
+
+### Drop-off analysis
+
+Locate where subscribers stall and propose one focused test.
+
+## Operating Proof
+
+- **Best for**: Teams turning long consideration cycles into structured email streams
+- **Primary artifact**: Drip map with message purpose and measurement plan
+- **Stop condition**: Changing score thresholds or live branching without owner approval
+
+## Agent Resources
+
+- Markdown index: /index.md
+- Skill discovery JSON: /.well-known/skills/index.json
+- Raw SKILL.md: /skills/dripcampaignskill/SKILL.md
+- Articles: /articles/
