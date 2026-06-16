@@ -1,0 +1,23 @@
+{
+  "name": "drip-campaign",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Drip Campaign Skill: time-based nurture streams, branching logic, and conversion analysis.",
+  "type": "module",
+  "scripts": {
+    "build": "node -e \"console.log('static public site ready')\"",
+    "validate": "node scripts/validate.mjs"
+  },
+  "keywords": [
+    "codex-skill",
+    "email",
+    "agents",
+    "drip-campaign"
+  ],
+  "skill": {
+    "name": "drip-campaign",
+    "path": "skills/drip-campaign",
+    "install": "npx skills add drip-campaign",
+    "githubInstall": "npx skills add polnikale/dripcampaignskill --skill drip-campaign"
+  }
+}
