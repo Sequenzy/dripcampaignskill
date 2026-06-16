@@ -1,5 +1,5 @@
 ---
-name: drip-campaign
+name: dripcampaignskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on time-based nurture streams, branching logic, and conversion analysis. Triggers include requests about Nurture sequence planning, Lead scoring hooks, Drop-off analysis, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 
