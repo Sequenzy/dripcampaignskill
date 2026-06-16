@@ -17,7 +17,6 @@
   "skill": {
     "name": "dripcampaignskill",
     "path": "skills/dripcampaignskill",
-    "install": "npx skills add dripcampaignskill",
-    "githubInstall": "npx skills add Sequenzy/dripcampaignskill --skill dripcampaignskill"
+    "install": "npx skills add dripcampaignskill"
   }
 }

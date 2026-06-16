@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add dripcampaignskill
-npx skills add Sequenzy/dripcampaignskill --skill dripcampaignskill
 ```
 
 Raw skill folder: `skills/dripcampaignskill`
