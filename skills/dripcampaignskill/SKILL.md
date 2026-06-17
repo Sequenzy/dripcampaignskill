@@ -1,28 +1,33 @@
 ---
 name: dripcampaignskill
-description: Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on time-based nurture streams, branching logic, and conversion analysis. Triggers include requests about Nurture sequence planning, Lead scoring hooks, Drop-off analysis, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
+description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on time-based nurture streams, branching logic, lead scoring hooks, and conversion analysis. Triggers include requests about nurture sequence planning, lead scoring hooks, drop-off analysis, sales handoffs, and timed education streams."
 ---
 
 # Drip Campaign Skill
 
-Use this skill to turn email work into an agent-safe operating routine. Start by identifying whether the task is analysis, drafting, implementation planning, QA, or production execution. Keep production execution behind explicit human approval.
+Design nurture as progressive context, not a pile of delayed emails. Each step should advance readiness or route the contact elsewhere.
 
-## Workflow
+## When To Use
 
-1. Clarify the email surface: campaign, newsletter, automation, transactional message, template, deliverability issue, or reporting task.
-2. Ask for source material that changes the answer: audience, lifecycle stage, offer, sending platform, segment rules, screenshots or exports, recent metrics, brand voice, compliance constraints, and existing copy.
-3. Produce structured output with these headings when relevant: assumptions, missing inputs, recommendation, draft or implementation notes, QA checks, risk level, and approval needed.
-4. Do not send, import contacts, alter suppression rules, change DNS, or modify production automations without explicit confirmation.
-5. If the task is complex or high risk, read references/operating-checklist.md before finalizing.
+Use this skill for time-based nurture streams, branching logic, lead scoring hooks, and conversion analysis. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+
+## Operating Workflow
+
+1. Define the campaign entry moment and the recipient's current intent, source, and awareness level.
+2. Map the sequence promise across time: what the contact should understand, believe, or do after each message.
+3. Set delays and branches based on decision points, not arbitrary spacing.
+4. Add lead scoring or qualification hooks only when sales, onboarding, or support will act on them.
+5. Audit drop-off by message, branch, source, segment, and CTA to find where readiness stalls.
+6. Recommend edits that improve sequence logic before rewriting every email.
 
 ## Review Criteria
 
-- The recommendation matches time-based nurture streams, branching logic, and conversion analysis.
-- The audience and permission basis are clear.
-- The message promise, segment, timing, and call to action are consistent.
-- Deliverability, unsubscribe, complaint, and compliance risks are surfaced.
-- Any live-system action is separated from analysis or drafting.
+- Every email has a distinct job in the nurture path.
+- Branching criteria are measurable and available in the platform.
+- Sales or product handoff thresholds are explicit.
+- The sequence has exits for conversion, disqualification, inactivity, and suppression.
+- Performance review separates timing, audience fit, offer, and copy issues.
 
 ## Output Pattern
 
-Return concise, executable artifacts: briefs, checklists, diffs, campaign outlines, sequence maps, QA tables, or post-send retrospectives. Prefer concrete next actions over generic best practices.
+Return drip maps, nurture briefs, branch logic tables, scoring hooks, drop-off diagnoses, and conversion-focused rewrite plans. Keep recommendations concrete. Separate analysis from live-system actions, and require explicit approval before sending email, importing contacts, changing DNS, altering suppression rules, or editing production automations.
