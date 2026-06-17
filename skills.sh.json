@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Drip Campaigns",
+      "description": "Time-based nurture streams, branch logic, lead scoring, and conversion reviews.",
+      "skills": [
+        "dripcampaignskill"
+      ]
+    }
+  ]
+}
